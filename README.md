@@ -1,15 +1,12 @@
-# ProtractorE2E-POC
+# app
 
-- Install [node.js](https://nodejs.org/en/) if it is not already installed on your system
-- Install the main command line tools needed for building, development and testing by running this command on the Terminal/Command prompt:
+This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
+version 0.15.1.
 
-```
-npm install -g yo bower grunt-cli generator-angular
-```
+## Build & development
 
-- At the root of the cloned repo, run these commands to install the dependencies
+Run `grunt` for building and `grunt serve` for preview.
 
-```
-npm install
-bower install
-```
+## Testing
+
+Running `grunt test` will run the unit tests with karma.
